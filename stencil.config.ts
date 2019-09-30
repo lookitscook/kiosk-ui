@@ -1,7 +1,7 @@
 import { Config } from '@stencil/core';
 
 export const config: Config = {
-  namespace: 'kiosk-components',
+  namespace: 'kiosk-ui',
   outputTargets: [
     {
       type: 'dist',

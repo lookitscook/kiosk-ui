@@ -9,20 +9,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface KioskSiteNavigation {
-    /**
-    * The first name
-    */
-    'first': string;
-    /**
-    * The last name
-    */
-    'last': string;
-    /**
-    * The middle name
-    */
-    'middle': string;
-  }
+  interface KioskSiteNavigation {}
 }
 
 declare global {
@@ -39,20 +26,7 @@ declare global {
 }
 
 declare namespace LocalJSX {
-  interface KioskSiteNavigation {
-    /**
-    * The first name
-    */
-    'first'?: string;
-    /**
-    * The last name
-    */
-    'last'?: string;
-    /**
-    * The middle name
-    */
-    'middle'?: string;
-  }
+  interface KioskSiteNavigation {}
 
   interface IntrinsicElements {
     'kiosk-site-navigation': KioskSiteNavigation;
