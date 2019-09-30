@@ -9,7 +9,7 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface MyComponent {
+  interface KioskSiteNavigation {
     /**
     * The first name
     */
@@ -28,18 +28,18 @@ export namespace Components {
 declare global {
 
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  interface HTMLKioskSiteNavigationElement extends Components.KioskSiteNavigation, HTMLStencilElement {}
+  var HTMLKioskSiteNavigationElement: {
+    prototype: HTMLKioskSiteNavigationElement;
+    new (): HTMLKioskSiteNavigationElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'kiosk-site-navigation': HTMLKioskSiteNavigationElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface MyComponent extends JSXBase.HTMLAttributes<HTMLMyComponentElement> {
+  interface KioskSiteNavigation {
     /**
     * The first name
     */
@@ -55,7 +55,7 @@ declare namespace LocalJSX {
   }
 
   interface IntrinsicElements {
-    'my-component': MyComponent;
+    'kiosk-site-navigation': KioskSiteNavigation;
   }
 }
 
@@ -64,7 +64,9 @@ export { LocalJSX as JSX };
 
 declare module "@stencil/core" {
   export namespace JSX {
-    interface IntrinsicElements extends LocalJSX.IntrinsicElements {}
+    interface IntrinsicElements {
+      'kiosk-site-navigation': LocalJSX.KioskSiteNavigation & JSXBase.HTMLAttributes<HTMLKioskSiteNavigationElement>;
+    }
   }
 }
 

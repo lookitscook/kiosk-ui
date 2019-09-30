@@ -2,11 +2,11 @@ import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
 
 @Component({
-  tag: 'my-component',
-  styleUrl: 'my-component.css',
+  tag: 'kiosk-site-navigation',
+  styleUrl: 'kiosk-site-navigation.css',
   shadow: true
 })
-export class MyComponent {
+export class KioskSiteNavigation {
   /**
    * The first name
    */
