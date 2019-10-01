@@ -1,1 +1,0 @@
-System.register(["./p-818821de.system.js"],(function(){"use strict";var t,e;return{setters:[function(s){t=s.p;e=s.b}],execute:function(){t().then((function(t){return e([["p-qdp11sys.system",[[1,"kiosk-site-navigation"]]]],t)}))}}}));
