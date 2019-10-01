@@ -1,3 +1,4 @@
 .stencil
 node_modules
 www
+dist
