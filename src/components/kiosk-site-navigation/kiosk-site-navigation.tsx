@@ -17,20 +17,17 @@ export class KioskSiteNavigation {
       <nav>
         <ul>
           <li><a href="https://kiosk.cook.company/features">
-            Features &amp; Pricing
+            Pricing
             </a></li>
-          <li><a href="https://kiosk.cook.company/news">
-            News
+          <li><a href="https://support.kiosk.cook.company/">
+            Support &amp; Documentation
           </a></li>
-          <li><a href="https://kiosk.cook.company/support">
-            Support
-            </a></li>
-          <li><a href="https://kiosk.cook.company/get-started">
+          <li><a href="https://support.kiosk.cook.company/hc/en-us/articles/360033897672-Quick-Start">
             Get Started
             </a></li>
-          <li><a href="https://dashboard.kiosk.cook.company/sign-in">
+          <li><a href="https://dashboard.kiosk.cook.company/">
               <span class="text">Sign In</span>
-              <i class="fas fa-sign-in-alt"></i>
+              <i class="fas fa-wrench"></i>
             </a></li>
         </ul>
       </nav>
